@@ -1,0 +1,56 @@
+|latch1b
+Q[0] <= latch1:inst.Q[0]
+Q[1] <= latch1:inst.Q[1]
+Q[2] <= latch1:inst.Q[2]
+Q[3] <= latch1:inst.Q[3]
+Q[4] <= latch1:inst.Q[4]
+Q[5] <= latch1:inst.Q[5]
+Q[6] <= latch1:inst.Q[6]
+Q[7] <= latch1:inst.Q[7]
+Reset_A => latch1:inst.Resetn
+Clk => latch1:inst.Clk
+A[0] => latch1:inst.A[0]
+A[1] => latch1:inst.A[1]
+A[2] => latch1:inst.A[2]
+A[3] => latch1:inst.A[3]
+A[4] => latch1:inst.A[4]
+A[5] => latch1:inst.A[5]
+A[6] => latch1:inst.A[6]
+A[7] => latch1:inst.A[7]
+
+
+|latch1b|latch1:inst
+A[0] => Q[0]~reg0.DATAIN
+A[1] => Q[1]~reg0.DATAIN
+A[2] => Q[2]~reg0.DATAIN
+A[3] => Q[3]~reg0.DATAIN
+A[4] => Q[4]~reg0.DATAIN
+A[5] => Q[5]~reg0.DATAIN
+A[6] => Q[6]~reg0.DATAIN
+A[7] => Q[7]~reg0.DATAIN
+Resetn => Q[0]~reg0.ACLR
+Resetn => Q[1]~reg0.ACLR
+Resetn => Q[2]~reg0.ACLR
+Resetn => Q[3]~reg0.ACLR
+Resetn => Q[4]~reg0.ACLR
+Resetn => Q[5]~reg0.ACLR
+Resetn => Q[6]~reg0.ACLR
+Resetn => Q[7]~reg0.ACLR
+Clk => Q[0]~reg0.CLK
+Clk => Q[1]~reg0.CLK
+Clk => Q[2]~reg0.CLK
+Clk => Q[3]~reg0.CLK
+Clk => Q[4]~reg0.CLK
+Clk => Q[5]~reg0.CLK
+Clk => Q[6]~reg0.CLK
+Clk => Q[7]~reg0.CLK
+Q[0] <= Q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= Q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= Q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[4] <= Q[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[5] <= Q[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[6] <= Q[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[7] <= Q[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
