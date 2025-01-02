@@ -1,4 +1,4 @@
-# Design of a Simple General Purpose Processor
+# General Purpose Processor Design
 The objective of this lab is to construct and design an arithmetic and logic unit that performs arithmetical and logical operations. An ALU consists of a processing unit with four parts that help accomplish this task. The first is the control unit which collects the instruction needed to compute the operation, the bus controls the accessibility to the data, registers act as temporary storage for data, and the ALU core performs the operation. Using VHDL code, multiple components of an ALU were written and modified to create two ALUs that perform different operations.
 
 ## Components
