@@ -11,8 +11,16 @@ The purpose of this lab is to design and construct an arithmetic and logic unit 
 5. ALU Core: Performs the operations.
 
 ALU 1 performs arithmetic and logical operations on 8-bit inputs A and B, with operations determined by microcode from a control unit. The results are displayed in hexadecimal on two seven-segment displays, using the last four digits of a student number converted to binary as inputs.
+<div align="center">
+  <img src="./alu1.png" />
+</div>
+<br/>
 
 ALU 3 extends ALU 1 by implementing additional functionalities specified by the lab, including processing four inputs and determining odd or even numbers. The output displays y for odd numbers and n for even numbers using the FSM and modified VHDL code.
+<div align="center">
+  <img src="./alu3.png" />
+</div>
+<br/>
 
 
 ## Technologies Used
