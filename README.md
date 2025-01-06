@@ -20,8 +20,6 @@ ALU 3 extends ALU 1 by implementing additional functionalities specified by the 
 <div align="center">
   <img src="./ALU3.png" />
 </div>
-<br/>
-
 
 ## Technologies Used
 The following technologies and tools were used to develop and test the ALU:
